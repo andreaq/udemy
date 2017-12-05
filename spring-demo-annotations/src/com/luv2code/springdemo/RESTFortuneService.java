@@ -3,15 +3,10 @@ package com.luv2code.springdemo;
 import org.springframework.stereotype.Component;
 
 @Component
-public class RugbyCoach implements Coach {
+public class RESTFortuneService implements FortuneService {
 
 	@Override
-	public String getDailyWorkout() {		
-		return "The ball is oval!";
-	}
-
-	@Override
-	public String getDailyFortune() {
+	public String getFortune() {
 		// TODO Auto-generated method stub
 		return null;
 	}
